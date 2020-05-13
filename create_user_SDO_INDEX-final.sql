@@ -35,3 +35,4 @@ BEGIN
         END create_SDO_index;       
     END LOOP;
 END create_user_SDO_INDEX;
+/
