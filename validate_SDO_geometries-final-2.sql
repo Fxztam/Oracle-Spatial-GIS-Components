@@ -36,7 +36,7 @@ BEGIN
        END validate;
    END LOOP;
 END validate_SDO_geometries;
-
+/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SQL> select * from geom_erresults;
 
