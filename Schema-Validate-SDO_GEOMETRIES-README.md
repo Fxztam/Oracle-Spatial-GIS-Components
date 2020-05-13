@@ -1,4 +1,4 @@
-## 
+## Validation of all Feature Table SDO_GEOMETRIES in the actual schema
 
 ```sql
 --
