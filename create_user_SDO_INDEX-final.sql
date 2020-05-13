@@ -14,7 +14,10 @@ BEGIN
                         where Table_name=c.Table_name 
                   ) 
         LOOP
-           EXECUTE IMMEDIATE 'drop index '||ix.Index_name;
+           BEGIN
+              EXECUTE IMMEDIATE 'drop index '||ix.Index_name;
+           EXCEPTION WHEN OTHERS THEN NULL;
+           END;
         END LOOP;         
         BEGIN
           EXECUTE IMMEDIATE 'Create Index '
