@@ -39,3 +39,4 @@ BEGIN
                 )' USING l_SRID;
    END LOOP;
 END set_user_SDO_metadata;
+/
