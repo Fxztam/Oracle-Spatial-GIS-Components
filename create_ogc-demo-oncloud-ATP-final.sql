@@ -2,7 +2,8 @@
     --Copyright © 2007 Open Geospatial Consortium, Inc. All Rights Reserved. OGC 06-104r4 
     --Copyright © 2007 Open Geospatial Consortium, Inc. All Rights Reserved. xcvii 
 	-- .................................................................................. --
-	-- Adapted for Oracle Spatial OracleATP Cloud : Friedhold Matz 21.04.2020 .
+	-- Adapted for Oracle Spatial OracleATP Cloud : Friedhold Matz 21.04.2020 
+	-- !!! Not complete validated !!!
     -- SDO : Oracle Spatial Data Object  (Oracle specific geometry data type)
     ----------------------------------------------------------------------------------------
 
