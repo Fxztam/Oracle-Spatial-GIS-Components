@@ -28,7 +28,7 @@ BEGIN
               || ' on '
               || c.Table_name
               || '(' || c.Column_name
-              || ') indextype is mdsys.spatial_index';
+              || ') indextype is mdsys.spatial_index_V2';
         EXCEPTION WHEN OTHERS THEN
            dbms_output.put_line(sqlerrm||'/'||c.Table_name);
            RAISE;
