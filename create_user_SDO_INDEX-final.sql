@@ -1,6 +1,7 @@
 --
 -- Drop and Create SDO Index of all Feature Tables in the active schema
 -- Friedhold Matz : 2020-04-26
+--       Modified : 2020-08.06 : indextype to mdsys.spatial_index_V2
 --
 CREATE OR REPLACE PROCEDURE create_user_SDO_INDEX IS
 BEGIN
