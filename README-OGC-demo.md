@@ -1,3 +1,3 @@
 # OGC - Simple Feature demo
 
-### Not complete validated yet !
+### Not still completely validated !
